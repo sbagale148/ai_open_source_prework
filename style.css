@@ -1,0 +1,20 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background-color: #000; /* Black background for any overflow */
+}
+
+#gameCanvas {
+    display: block; /* Remove default inline spacing */
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    cursor: crosshair; /* Default cursor for potential click-to-move functionality */
+}
